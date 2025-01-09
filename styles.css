@@ -261,3 +261,109 @@ a{
         transform: scale(1);
     }
 }
+
+
+@media screen and (max-width: 768px){
+
+
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .image1{
+        width: 350px;
+        height: 350px;
+        margin-top: -50px;
+    }
+
+    .hero-section-heading{
+        font-size: 40px;
+    }
+
+    .image2{
+        height: 100vh;
+    }
+
+    .heading{
+        font-size: 25px;
+        margin-left: 20%;
+        margin-top: -20%;
+    }
+
+    .subheading1{
+        font-size: 20px;
+        margin-top: -29%;
+       text-align: justify;
+    }
+
+    .subheading2{
+        font-size: 20px;
+        margin-top: -12%;
+        text-align: justify;
+    }
+
+
+    .services-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .left-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .subheader1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .subheader2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    ul li{
+        gap: 1rem;
+    }
+
+.unorder-list{
+    display: inline;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        gap: 0;
+        text-decoration: underline;
+        font-weight:bold ;
+    }
+
+    .image3{
+        width: 350px;
+        height: 350px;
+        margin-top: 50px;
+    }
+
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image4{
+        width: 350px;
+        height: 350px;
+        margin-top: 50px;
+    }
+
+    .right-section1{
+        margin-top: 40px;
+        align-items: center;
+    }
+}
